@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+int a,n;
+int s = 1;
+for(int i=1;i<=n;i++)
+   {
+      s=s*a;
+    }
+cout<<"n-ti stepen broja a je"<< s;
+return 0;
+}
