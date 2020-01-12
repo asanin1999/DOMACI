@@ -1,0 +1,9 @@
+<?php
+$a=readline("Unesite broj : ");
+$n=readline("unesite stepen : ");
+$p=1;
+for($i=1;$i<=$n;$i++){
+    $p=$p*$a;
+}
+print("Rezultat je : ".$p);
+?>

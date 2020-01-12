@@ -1,0 +1,7 @@
+a=int(input("unesite broj : "))
+n=int(input("unesite stepen: "))
+p=1
+for i in range(n):
+    p=p*a
+print("Rezultat je : ")
+print(p)
